@@ -66,30 +66,30 @@
         }
         /* Primary Button styling with a revised pastel gradient */
         .btn-primary {
-            background: linear-gradient(135deg, #B03060, #FFD1DC); /* Rich pink to soft pink */
+            background: linear-gradient(135deg, #000080, #87CEEB);
             color: white;
             font-weight: bold;
-            padding: 10px 20px;
+            padding: 12px 20px;
             border-radius: 8px;
             transition: all 0.3s;
             animation: fadeIn 0.5s ease-in-out;
-            border: none;
         }
         .btn-primary:hover {
-            background: linear-gradient(135deg, #FFD1DC, #B03060);
+            background: linear-gradient(135deg, #87CEEB, #000080);
             transform: translateY(-2px);
-            color: white;
+            color: aliceblue;
         }
         /* Warning Button remains similar */
         .btn-warning {
-            background: linear-gradient(135deg, #ffc107, #e0a800);
+            background: linear-gradient(135deg, #000080, #87CEEB);
             color: white;
-            border: none;
+            border-radius: 50%;
             transition: all 0.3s;
         }
         .btn-warning:hover {
-            background: linear-gradient(135deg, #e0a800, #d39e00);
+            background: linear-gradient(135deg, #87CEEB, #000080);
             transform: scale(1.1);
+            color: white;
         }
         /* Danger Button */
         .btn-danger {
